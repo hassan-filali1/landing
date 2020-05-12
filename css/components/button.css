@@ -1,0 +1,24 @@
+.button{
+	display: flex;
+	flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.8);
+    padding:20px 20px;
+    margin: 10px;
+}	
+
+.img-circle{
+	width: 100px;
+	border-radius: 50%;
+	border:solid;
+	border-color: black;
+	margin:10px;
+}
+
+.button h3{
+	flex-grow: 1;
+	padding-left: 10px;
+}
+
